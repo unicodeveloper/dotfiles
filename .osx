@@ -210,7 +210,7 @@ defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Finder: show hidden files by default
-defaults write com.apple.finder AppleShowAllFiles -bool true
+# defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -611,6 +611,28 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool true
 
 # Hide the app in the background if it’s not the front-most window
 defaults write com.twitter.twitter-mac HideInBackground -bool true
+
+###############################################################################
+# Keep additonal commands separate so diff in future is easy                  #
+###############################################################################
+
+# mute all sounds, incl volume change feedback
+defaults write "com.apple.sound.beep.feedback" -int 0
+defaults write "com.apple.systemsound" "com.apple.sound.uiaudio.enabled" -int 0
+
+# TODO:
+# Bottom left screen corner → Desktop
+#
+#
+# Top right screen corner → Expose
+#
+#
+# Bottom right screen corner → Start screen saver
+# defaults write com.apple.dock wvous-br-corner -int 5
+# defaults write com.apple.dock wvous-br-modifier -int 0
+
+# Disable Spotlight
+# 
 
 ###############################################################################
 # Kill affected applications                                                  #
