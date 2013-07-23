@@ -620,16 +620,15 @@ defaults write com.twitter.twitter-mac HideInBackground -bool true
 defaults write "com.apple.sound.beep.feedback" -int 0
 defaults write "com.apple.systemsound" "com.apple.sound.uiaudio.enabled" -int 0
 
-# TODO:
 # Bottom left screen corner → Desktop
-#
-#
-# Top right screen corner → Expose
-#
-#
+defaults write com.apple.dock wvous-bl-corner -int 4
+defaults write com.apple.dock wvous-bl-modifier -int 0
+# Top right screen corner → Mission Control
+defaults write com.apple.dock wvous-tr-corner -int 2
+defaults write com.apple.dock wvous-tr-modifier -int 0
 # Bottom right screen corner → Start screen saver
-# defaults write com.apple.dock wvous-br-corner -int 5
-# defaults write com.apple.dock wvous-br-modifier -int 0
+defaults write com.apple.dock wvous-br-corner -int 5
+defaults write com.apple.dock wvous-br-modifier -int 0
 
 # Disable Spotlight
 sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
