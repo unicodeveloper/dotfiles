@@ -11,11 +11,11 @@ alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
-alias g="git"
+#alias g="git"
 alias h="history"
 alias j="jobs"
 alias v="vim"
-alias m="mate ."
+#alias m="mate ."
 alias s="subl ."
 alias o="open"
 alias oo="open ."
@@ -113,7 +113,7 @@ alias spotoff="sudo mdutil -a -i off"
 alias spoton="sudo mdutil -a -i on"
 
 # PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
-alias plistbuddy="/usr/libexec/PlistBuddy"
+#alias plistbuddy="/usr/libexec/PlistBuddy"
 
 # Ring the terminal bell, and put a badge on Terminal.app’s Dock icon
 # (useful when executing time-consuming commands)
