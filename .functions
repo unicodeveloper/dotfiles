@@ -132,9 +132,9 @@ function json() {
 }
 
 # All the dig info
-function digga() {
-	dig +nocmd "$1" any +multiline +noall +answer
-}
+#function digga() {
+#	dig +nocmd "$1" any +multiline +noall +answer
+#}
 
 # Escape UTF-8 characters into their 3-byte format
 function escape() {
@@ -239,15 +239,15 @@ EOF
 }
 
 # Manually remove a downloaded app or file from the quarantine
-function unquarantine() {
-	for attribute in com.apple.metadata:kMDItemDownloadedDate com.apple.metadata:kMDItemWhereFroms com.apple.quarantine; do
-		xattr -r -d "$attribute" "$@"
-	done
-}
+#function unquarantine() {
+#	for attribute in com.apple.metadata:kMDItemDownloadedDate com.apple.metadata:kMDItemWhereFroms com.apple.quarantine; do
+#		xattr -r -d "$attribute" "$@"
+#	done
+#}
 
 # Install Grunt plugins and add them as `devDependencies` to `package.json`
 # Usage: `gi contrib-watch contrib-uglify zopfli`
-function gi() {
-	local IFS=,
-	eval npm install --save-dev grunt-{"$*"}
-}
+#function gi() {
+#	local IFS=,
+#	eval npm install --save-dev grunt-{"$*"}
+#}
