@@ -496,11 +496,11 @@ defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Target Search Fi
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
 
-# Use a modified version of the Pro theme by default in Terminal.app
-open "$HOME/init/Mathias.terminal"
+# Use a Solarized Dark by default in Terminal.app https://github.com/tomislav/osx-terminal.app-colors-solarized
+open "$HOME/init/SolarizedDark.terminal"
 sleep 1 # Wait a bit to make sure the theme is loaded
-defaults write com.apple.terminal "Default Window Settings" -string "Mathias"
-defaults write com.apple.terminal "Startup Window Settings" -string "Mathias"
+defaults write com.apple.terminal "Default Window Settings" -string "SolarizedDark"
+defaults write com.apple.terminal "Startup Window Settings" -string "SolarizedDark"
 
 # Enable “focus follows mouse” for Terminal.app and all X11 apps
 # i.e. hover over a window and start typing in it without clicking first
