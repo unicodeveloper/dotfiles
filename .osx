@@ -295,8 +295,8 @@ sudo nvram boot-args="mbasd=1"
 chflags nohidden ~/Library
 
 # Remove Dropbox’s green checkmark icons in Finder
-file=/Applications/Dropbox.app/Contents/Resources/emblem-dropbox-uptodate.icns
-[ -e "$file" ] && mv -f "$file" "$file.bak"
+#file=/Applications/Dropbox.app/Contents/Resources/emblem-dropbox-uptodate.icns
+#[ -e "$file" ] && mv -f "$file" "$file.bak"
 
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
@@ -350,7 +350,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0
 # defaults write com.apple.dock autohide -bool true
 
 # Make Dock icons of hidden applications translucent
-defaults write com.apple.dock showhidden -bool true
+#defaults write com.apple.dock showhidden -bool true
 
 # Reset Launchpad
 # find ~/Library/Application\ Support/Dock -name "*.db" -maxdepth 1 -delete
