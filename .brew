@@ -50,7 +50,7 @@ brew install tree
 #brew install lua52
 
 # Install native apps
-#brew tap phinze/homebrew-cask
+brew tap phinze/homebrew-cask
 brew install brew-cask
 
 function installcask() {
