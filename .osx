@@ -620,6 +620,9 @@ defaults write com.twitter.twitter-mac HideInBackground -bool true
 defaults write "com.apple.sound.beep.feedback" -int 0
 defaults write "com.apple.systemsound" "com.apple.sound.uiaudio.enabled" -int 0
 
+# mute startup chime
+nvram SystemAudioVolume=%00
+
 # Bottom left screen corner → Desktop
 defaults write com.apple.dock wvous-bl-corner -int 4
 defaults write com.apple.dock wvous-bl-modifier -int 0
