@@ -23,7 +23,7 @@
 
 # https://github.com/rupa/z
 # z, oh how i love you
-cd ~/
+cd
 git clone https://github.com/rupa/z.git
 chmod +x ~/z/z.sh
 # also consider moving over your current .z file if possible. it's painful to rebuild :)
