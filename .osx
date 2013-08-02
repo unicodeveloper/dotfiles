@@ -619,6 +619,9 @@ defaults write com.twitter.twitter-mac HideInBackground -bool true
 # Keep additonal commands separate so diff in future is easy                  #
 ###############################################################################
 
+# Disable Dock icons bounce animation
+defaults write com.apple.dock no-bouncing -bool true
+
 # mute all sounds, incl volume change feedback
 defaults write "com.apple.sound.beep.feedback" -int 0
 defaults write "com.apple.systemsound" "com.apple.sound.uiaudio.enabled" -int 0
