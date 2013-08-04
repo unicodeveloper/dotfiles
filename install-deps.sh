@@ -7,7 +7,9 @@
 
 # https://rvm.io
 # rvm for the rubiess
-#curl -L https://get.rvm.io | bash -s stable --ruby
+#Paul does: curl -L https://get.rvm.io | bash -s stable --ruby
+#I do this one as it adds dependencies as well
+\curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
 
 # https://github.com/isaacs/nave
 # needs npm, obviously.
@@ -58,3 +60,8 @@ chmod +x ~/z/z.sh
 # chrome canary as default
 # on a mac you can set chrome canary as your default inside of Safari preferences :)
 
+# My extra stuff (do I need sudo here?)
+# Check gems are up to date
+sudo gem update --system
+# Install jekyll
+sudo gem install jekyll
