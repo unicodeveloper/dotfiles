@@ -622,6 +622,9 @@ defaults write com.twitter.twitter-mac HideInBackground -bool true
 # Keep additonal commands separate so diff in future is easy                  #
 ###############################################################################
 
+# Menu bar: Set date and time format e.g. Sun 11 Aug 16:55
+defaults write com.apple.menuextra.clock DateFormat -string "E MMM d HH:mm"
+
 # Disable Dock icons bounce animation
 defaults write com.apple.dock no-bouncing -bool true
 
