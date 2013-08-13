@@ -61,7 +61,10 @@ chmod +x ~/z/z.sh
 # on a mac you can set chrome canary as your default inside of Safari preferences :)
 
 # My extra stuff (do I need sudo here?)
-# Check gems are up to date
-sudo gem update --system
+# Check gems are up to date without installing documentation
+sudo gem update --system --no-document
 # Install jekyll
 sudo gem install jekyll
+
+# Set symlink for Sublime Text 2
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
