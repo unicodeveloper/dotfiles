@@ -488,7 +488,7 @@ sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 # sudo mdutil -E /
 
 ###############################################################################
-# Terminal                                                                    #
+# Terminal & iTerm 2                                                          #
 ###############################################################################
 
 # Only use UTF-8 in Terminal.app
@@ -507,6 +507,9 @@ defaults write com.apple.terminal "Startup Window Settings" -string "SolarizedDa
 
 # Install pretty iTerm colors
 open "${HOME}/init/Mathias.itermcolors"
+
+# Don’t display the annoying prompt when quitting iTerm
+defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 ###############################################################################
 # Time Machine                                                                #
