@@ -252,6 +252,16 @@ EOF
 #	eval npm install --save-dev grunt-{"$*"}
 #}
 
+# `s` with no arguments opens the current directory in Sublime, otherwise opens
+# the given location
+function s() {
+	if [ $# -eq 0 ]; then
+		subl .
+	else
+		subl "$@"
+	fi
+}
+
 # animated gifs from any video
 # from alex sexton   gist.github.com/SlexAxton/4989674
 gifify() {
