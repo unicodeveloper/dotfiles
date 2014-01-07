@@ -640,6 +640,9 @@ defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://
 # Install Sublime Text settings
 cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
+# Install Sublime Text console.log snippet
+cp -r init/console_log.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/console_log.sublime-snippet 2> /dev/null
+
 ###############################################################################
 # Transmission.app                                                            #
 ###############################################################################
