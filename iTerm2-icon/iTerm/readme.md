@@ -1,4 +1,4 @@
-# Install iTerm2 Icon
+# iTerm Icon
 
 By Dax Hansen:
 http://dribbble.com/shots/1343859-iTerm2-Icon
