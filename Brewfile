@@ -39,17 +39,21 @@ install josegonzalez/homebrew-php/php55
 #install ack
 #install pv
 #install exiv2
+#install foremost
 install git
 #install imagemagick --with-webp
 #install lynx
+#install nmap
 install node
+#install p7zip
 #install pigz
+#install pv
 #install rename
 #install rhino
+#install sqlmap
 install tree
 #install webkit2png
 #install zopfli
-#install p7zip
 
 tap homebrew/versions
 install lua52
