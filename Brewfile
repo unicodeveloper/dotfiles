@@ -53,6 +53,7 @@ install node
 #install sqlmap
 install tree
 #install webkit2png
+#install xpdf
 #install zopfli
 
 tap homebrew/versions
