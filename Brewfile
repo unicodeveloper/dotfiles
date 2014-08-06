@@ -44,6 +44,7 @@ install git
 #install imagemagick --with-webp
 #install lynx
 #install nmap
+#install ucspi-tcp # `tcpserver` et al.
 install node
 #install p7zip
 #install pigz
