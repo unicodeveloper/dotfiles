@@ -43,6 +43,7 @@ install node
 install tree
 #install webkit2png
 #install zopfli
+#install p7zip
 
 tap homebrew/versions
 install lua52
