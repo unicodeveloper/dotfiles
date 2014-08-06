@@ -24,10 +24,8 @@ install narwhal
 
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
-tap homebrew/dupes
 install homebrew/dupes/grep
-tap josegonzalez/homebrew-php
-install php55
+install josegonzalez/homebrew-php/php55
 
 # This formula didn’t work well last time I tried it:
 #install homebrew/dupes/screen
