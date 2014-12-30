@@ -691,13 +691,13 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 ###############################################################################
 
 # Install Sublime Text settings
-# cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
+cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 # Install Sublime Text key bindings
-# cp -r init/Default\ (OSX).sublime-keymap ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Default\ (OSX).sublime-keymap 2> /dev/null
+cp -r init/Default\ (OSX).sublime-keymap ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Default\ (OSX).sublime-keymap 2> /dev/null
 
 # Install Sublime Text console.log snippet
-# cp -r init/console_log.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/console_log.sublime-snippet 2> /dev/null
+cp -r init/console_log.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/console_log.sublime-snippet 2> /dev/null
 
 ###############################################################################
 # Transmission.app                                                            #
