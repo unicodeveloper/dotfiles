@@ -699,6 +699,10 @@ cp init/Default\ (OSX).sublime-keymap ~/Library/Application\ Support/Sublime\ Te
 # Install Sublime Text console.log snippet
 cp init/console_log.sublime-snippet ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
+# Install Sublime Text theme
+cp init/Monokai-Phoenix.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
+
 ###############################################################################
 # Transmission.app                                                            #
 ###############################################################################
