@@ -1,6 +1,16 @@
 {
-    "color_scheme": "Packages/Color Scheme - Default/Monokai-Phoenix.tmTheme",
-    "theme": "Phoenix Dark.sublime-theme",
+    "auto_complete_triggers":
+    [
+        {
+            "characters": "<",
+            "selector": "text.html"
+        },
+        {
+            "characters": "/",
+            "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+        }
+    ],
+    "color_scheme": "Packages/User/Monokai-Phoenix (SL).tmTheme",
     "default_encoding": "UTF-8",
     "detect_indentation": false,
     "draw_white_space": "all",
@@ -14,6 +24,7 @@
         "Thumbs.db",
         ".Spotlight-V100",
         ".Trashes",
+        "*.css",
         "*.scssc"
     ],
     "folder_exclude_patterns":
@@ -29,10 +40,12 @@
     ],
     "match_brackets": true,
     "match_brackets_angle": true,
+    "rulers": [80],
+    "scroll_past_end": true,
     "show_encoding": true,
     "show_line_endings": true,
-    "tab_completion": false,
     "tab_size": 4,
+    "theme": "Phoenix Dark.sublime-theme",
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
     "word_wrap": true
