@@ -98,5 +98,8 @@ brew install tree
 # installation method.
 brew install node
 
+# Install io.js
+brew install iojs
+
 # Remove outdated versions from the cellar.
 brew cleanup
