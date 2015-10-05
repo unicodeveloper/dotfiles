@@ -1,12 +1,18 @@
 #!/usr/bin/env bash
 
-# Install command-line tools using Homebrew.
-
 # Ask for the administrator password upfront.
 sudo -v
 
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+# Install Homebrew & brew-cask
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap caskroom/cask
+brew install brew-cask
+brew tap homebrew/versions
+brew tap caskroom/versions
+
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -35,22 +41,16 @@ brew install bash-completion2
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
-# Install RingoJS and Narwhal.
-# Note that the order in which these are installed is important;
-# see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 #brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
+brew install homebrew/php/php56 --with-gmp
 
-brew tap caskroom/cask
-brew install brew-cask
-brew tap caskroom/versions
+brew install node
+
 
 #Install OSX Applications
 brew cask install firefox
