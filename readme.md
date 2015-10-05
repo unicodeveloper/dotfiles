@@ -1,6 +1,6 @@
-# Forked from Simon's dotfiles which was also Forked from Paul Irish.
+# Inspired by Simon's dotfiles which was forked from Paul Irish.
 
-Fork at your discretion to continue the forking process.
+Fork at your discretion to continue the forking process. Adapted for Oh-My-Zsh! :smile:
 
 ## Installation
 
