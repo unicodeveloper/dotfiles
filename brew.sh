@@ -52,6 +52,14 @@ brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
 
+#Install OSX Applications
+brew cask install firefox
+brew cask install google-chrome
+brew cask install spotify
+brew cask install sublime-text3
+brew cask install virtualbox
+brew cask install vlc
+
 # Install font tools.
 #brew tap bramstein/webfonttools
 #brew install sfnt2woff
@@ -88,7 +96,9 @@ brew tap caskroom/versions
 #brew install ack
 #brew install dark-mode
 #brew install exiv2
+brew install node
 brew install git
+brew install wget
 #brew install git-lfs
 #brew install imagemagick --with-webp
 brew install lua
