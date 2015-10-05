@@ -48,6 +48,10 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
 brew install homebrew/php/php55 --with-gmp
 
+brew tap caskroom/cask
+brew install brew-cask
+brew tap caskroom/versions
+
 # Install font tools.
 #brew tap bramstein/webfonttools
 #brew install sfnt2woff
