@@ -50,6 +50,7 @@ brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
 
 brew install node
+brew install imagemagick
 
 
 #Install OSX Applications
