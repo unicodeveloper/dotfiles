@@ -1,5 +1,6 @@
-# up to you (me) if you want to run this as a file or copy paste at your leisure
+#!/usr/bin/env bash
 
+# up to you (me) if you want to run this as a file or copy paste at your leisure
 
 # https://github.com/jamiew/git-friendly
 # the `push` command which copies the github compare URL to my clipboard is heaven
@@ -10,6 +11,11 @@
 #Paul does: curl -L https://get.rvm.io | bash -s stable --ruby
 #I do this one as it adds dependencies as well
 \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
+
+# Install Composer for PHP Development
+curl -sS https://getcomposer.org/installer | php
+# Move composer to the bin folder to make it global
+mv composer.phar /usr/local/bin/composer
 
 # https://github.com/isaacs/nave
 # needs npm, obviously.
