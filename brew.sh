@@ -13,7 +13,6 @@ brew install brew-cask
 brew tap homebrew/versions
 brew tap caskroom/versions
 
-
 # Make sure we’re using the latest Homebrew.
 brew update
 
@@ -60,6 +59,17 @@ brew cask install spotify
 brew cask install sublime-text3
 brew cask install virtualbox
 brew cask install vlc
+brew cask install iterm2
+brew cask install sequel-pro
+brew cask install the-unarchiver
+brew cask install slack
+brew cask install vagrant
+brew cask install openssl
+brew cask install php56-mcrypt
+brew cask install redis
+brew cask install mysql
+brew cask install phpunit
+brew cask install postgresql
 
 # Install font tools.
 #brew tap bramstein/webfonttools
